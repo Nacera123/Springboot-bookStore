@@ -55,8 +55,8 @@
             <td th:text="${b.price}">Mark</td>
             <td>
                 <a class="btn btn-dark btn-sm" th:href="@{/mylist/{id}(id=${b.id})}">Show My book</a>
-                <a class="btn btn-danger btn-sm" th:href="@{/deleteMyList/{id}(id=${b.id})}"><i class="bi bi-trash"></i></a>
-                <a class="btn btn-secondary btn-sm" th:href="@{/deleteMyList/{id}(id=${b.id})}"><i class="bi bi-pencil-square"></i></a>
+                <a class="btn btn-danger btn-sm" th:href="@{/deleteBook/{id}(id=${b.id})}"><i class="bi bi-trash"></i></a>
+                <a class="btn btn-secondary btn-sm" th:href="@{/editBook/{id}(id=${b.id})}"><i class="bi bi-pencil-square"></i></a>
 <!--                <a class="btn btn-secondary btn-sm">UPDATE</a>
                 <a class="btn btn-danger btn-sm">DELETE</a>-->
             </td>
